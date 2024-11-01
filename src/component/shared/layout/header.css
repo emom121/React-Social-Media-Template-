@@ -1,0 +1,8 @@
+.show-now{
+    display: inline;
+}
+@media (min-width: 992px) {
+    .show-now{
+        display: none;
+    }
+}

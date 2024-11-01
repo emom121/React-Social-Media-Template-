@@ -24,7 +24,7 @@ export default function SocialMedia() {
     <>
       <Row className="mx-auto">
         {/* Column 1 */}
-        <Col md={3}>
+        <Col lg={3}>
           {/* card */}
           <Card className="mb-4">
             <Card.Body>
@@ -85,22 +85,22 @@ export default function SocialMedia() {
                 </Accordion.Header>
                 <Accordion.Body>
                   <Row>
-                    <Col md={6} className=" my-1">
+                    <Col lg={6} className=" my-1">
                       <Image fluid src="./images/mountains.jpg" alt="" />
                     </Col>
-                    <Col md={6} className=" my-1">
+                    <Col lg={6} className=" my-1">
                       <Image fluid src="./images/lights.jpg" alt="" />
                     </Col>
-                    <Col md={6} className=" my-1">
+                    <Col lg={6} className=" my-1">
                       <Image fluid src="./images/forest.jpg" alt="" />
                     </Col>
-                    <Col md={6} className=" my-1">
+                    <Col lg={6} className=" my-1">
                       <Image fluid src="./images/nature.jpg" alt="" />
                     </Col>
-                    <Col md={6} className=" my-1">
+                    <Col lg={6} className=" my-1">
                       <Image fluid src="./images/snow.jpg" alt="" />
                     </Col>
-                    <Col md={6} className=" my-1">
+                    <Col lg={6} className=" my-1">
                       <Image fluid src="./images/mountains.jpg" alt="" />
                     </Col>
                   </Row>
@@ -156,7 +156,7 @@ export default function SocialMedia() {
         </Col>
 
         {/* Column2 */}
-        <Col md={7}>
+        <Col lg={7}>
           {/* Post anything  */}
           <Card className="mb-4">
             <Card.Body className="ms-2">
@@ -205,10 +205,10 @@ export default function SocialMedia() {
                 </p>
 
                 <Row className="text-center">
-                  <Col md={6} className="my-1">
+                  <Col lg={6} className="my-1">
                     <Image fluid src="./images/mountains.jpg" alt="" />
                   </Col>
-                  <Col md={6} className="my-1">
+                  <Col lg={6} className="my-1">
                     <Image fluid src="./images/lights.jpg" alt="" />
                   </Col>
                 </Row>
@@ -300,7 +300,7 @@ export default function SocialMedia() {
           </Card>
         </Col>
 
-        <Col md={2}>
+        <Col lg={2}>
         {/* Upcoming Events:*/}
         <Card className="mb-4">
             <Card.Body>
@@ -318,7 +318,7 @@ export default function SocialMedia() {
         
         {/*  Friend Request*/}
         <Card className="mb-4">
-            <Card.Body>
+            <Card.Body className="text-center">
                 <Card.Title className="my-2 h6 text-center">
                 Friend Request:
                 </Card.Title>

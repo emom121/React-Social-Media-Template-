@@ -8,6 +8,7 @@ import { IoEarth } from "react-icons/io5";
 import { IoPerson } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaBell } from "react-icons/fa6";
+import "./header.css"
 
 
 
@@ -20,11 +21,11 @@ export default function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#c"><IoEarth className='me-3 fs-3 '/>
+            <Nav.Link href="#c"><IoEarth className='me-3 fs-3 '/><span className='show-now'>homepage</span>
             </Nav.Link>
-            <Nav.Link href="#s"><IoPerson className='me-3 fs-3 ' />
+            <Nav.Link href="#s"><IoPerson className='me-3 fs-3 ' /><span className='show-now'>requests</span>
             </Nav.Link>
-            <Nav.Link href="#v"><MdEmail className='me-3 fs-3 '/>
+            <Nav.Link href="#v"><MdEmail className='me-3 fs-3 '/><span className='show-now'>masseges</span>
             </Nav.Link>
             <NavDropdown title={<FaBell className='me-3 fs-3 '/>} id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">One new frined request</NavDropdown.Item>
